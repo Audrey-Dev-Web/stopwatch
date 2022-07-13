@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stop Watch</title>
+    <title>StopWatch</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
     <div class="stopwatch">
         <div class="stopwatch_title">
-
-            <h1>Stop Watch</h1>
-            <p>JavaScript Stop Watch</p>
+            <h1>StopWatch</h1>
+            <h2>JavaScript StopWatch</h2>
         </div>
 
         <div class="stopwatch_chrono">
-            <p><span id="tens">00</span>:<span id="seconds">00</span></p>
+            <p><span id="hours">00</span>:<span id="minutes">00</span>:<span id="tens">00</span>:<span id="seconds">00</span></p>
         </div>
 
         <div class="stopwatch_footer">
-            <div class="start"><box-icon name='play-circle' ></box-icon></div>
-            <div class="stop"><box-icon name='stopwatch' ></box-icon></div>
-            <div class="reset"><box-icon name='reset' ></box-icon></div>
+            <div class="start"><i class='bx bx-play-circle' ></i></div>
+            <div class="stop"><i class='bx bx-stopwatch' ></i></div>
+            <div class="reset"><i class='bx bx-reset' ></i></div>
         </div>
     </div>
     <script src="stopwatch.js"></script>
