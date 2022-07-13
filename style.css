@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800;900&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,22 +11,24 @@ body {
     background: #3b3057;
     color: #bb9fff;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     font-size: 4em;
     text-transform: uppercase;
     color: #fff;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 2em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 p {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -46,7 +51,6 @@ p {
 #tens, #seconds, #hours, #minutes {
     display: inline-block;
     width: 80px;
-    height: 70px;
     color: #fff;
 }
 
@@ -56,13 +60,12 @@ p {
     align-items: center;
     border-radius: 100px;
     height: 100px;
-    width: 30%;
     position: relative;
 }
 
 .start, .stop, .reset {
     font-size: 4em;
-    padding-top: 15px;
+    padding-top: 7px;
     transition: 300ms ease-in-out;
 }
 
